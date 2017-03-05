@@ -14,10 +14,10 @@ let g:loaded_castOfArrow = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-noremap <silent><Right> call castOfArrow#Cast()<CR>
-noremap <silent><LEFT>  call castOfArrow#Cast()<CR>
-noremap <silent><Up>    call castOfArrow#Cast()<CR>
-noremap <silent><Down>  call castOfArrow#Cast()<CR>
+noremap <Right> :call castOfArrow#Cast()<CR>
+noremap <LEFT>  :call castOfArrow#Cast()<CR>
+noremap <Up>    :call castOfArrow#Cast()<CR>
+noremap <Down>  :call castOfArrow#Cast()<CR>
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
