@@ -14,8 +14,8 @@ let g:loaded_castOfArrow = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! cast()
-  :echo "禁止!"
+function! Cast()
+  echo "禁止!"
 endfunction
 
 let &cpo = s:save_cpo
